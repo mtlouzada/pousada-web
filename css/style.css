@@ -3,6 +3,7 @@
     border: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Source Sans Pro';
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 }
 
 .menu {
-    max-width: 1024px;
+    max-width: 1150px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,7 +24,7 @@ header {
 }
 
 .menu span {
-    color: #3131aa;
+    color: #0187ea;
 }
 
 .menu ul {
@@ -31,8 +32,34 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 20px;
 }
 
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-image: url('/assets/img-fundo.jpg');
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
 

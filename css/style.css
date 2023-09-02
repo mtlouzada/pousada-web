@@ -75,12 +75,14 @@ ul {
     justify-content: center;
     
       
-    background-color: rgba(140, 224, 198, 0.705);
+    background-color: #619b88b4;
     
     border-radius: 5px;
 
     line-height: 70px;
-    padding: 30px 5px;
+    padding: 30px 15px;
+
+    box-shadow: 0 0 1px 2px #3bd7b1;
 }
 
 .conteudo h2 {

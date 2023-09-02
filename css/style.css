@@ -3,7 +3,7 @@
     border: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
 }
 
 .menu {
-    max-width: 1150px;
+    max-width: 1024px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -27,7 +27,16 @@ header {
     color: #0187ea;
 }
 
-.menu ul {
+.logo {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 400;
+
+}
+
+ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -36,11 +45,11 @@ header {
     padding: 20px;
 }
 
-.menu a {
+.links-menu {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 

@@ -58,31 +58,37 @@ ul {
 
 
 .banner {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 700px;
     background-image: url('/assets/img-fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .conteudo {
-    max-width: 500px;
-    max-height: 250px;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
-    background-color: rgb(162, 236, 212);
-    opacity: 90%;
+    
+      
+    background-color: rgba(140, 224, 198, 0.705);
+    
     border-radius: 5px;
+
+    line-height: 70px;
+    padding: 30px 5px;
 }
 
-.texto-conteudo {
-    opacity: none;
+.conteudo h2 {
     color: #fff;
+    font-size: 44px;
+}
+
+.conteudo p {
+    color: #fff;
+    font-size: 30px;
 }

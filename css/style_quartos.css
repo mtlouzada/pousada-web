@@ -12,6 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    position: fixed;
 }
 
 .menu {

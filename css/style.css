@@ -101,7 +101,7 @@ ul {
 
 .anuncio {
     width: 100%;
-    height: 700px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,15 +111,17 @@ ul {
 }
 
 .opcoes {
+    max-width: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 0.5rem;
+    gap: 1.8rem;
     padding: 20px 0;
 
 }
 
 .texto {
+    max-width: 600px;
     text-align: center;
     line-height: 35px;
     padding: 10px;
@@ -136,9 +138,20 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 1rem;
+    border-bottom: 2px solid green ;
 }
 
 .tipos img {
-    width: 70%;
+    width: 100%;
+}
+
+.tipos a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 1rem;
 }

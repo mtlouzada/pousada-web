@@ -177,3 +177,24 @@ iframe {
     height: 60vh;
     padding: 10px 0;
 }
+
+
+
+
+.conteudo-sobre {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacao-sobre {
+    display: flex;
+    
+    flex-wrap: nowrap;
+
+}
+
+.informacao-sobre img {
+    width: 50px;
+}

@@ -181,20 +181,30 @@ iframe {
 
 
 
-.conteudo-sobre {
+.galeria {
     max-width: 1024px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 20px 0;
 }
 
-.informacao-sobre {
+.card {
     display: flex;
-    
-    flex-wrap: nowrap;
+    align-items: center;
+    width: 460px;
 
 }
 
-.informacao-sobre img {
+.card img {
     width: 50px;
+}
+
+.opcoes-sobre {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
 }

@@ -218,3 +218,29 @@ iframe {
     gap: 2.5rem;
 
 }
+
+
+
+
+
+.rodape {
+    background-color: #49997c;
+}
+
+.contato {
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 20px 0;
+}
+
+.contato h4 {
+    color: #fff;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #fff;
+}

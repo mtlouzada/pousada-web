@@ -244,3 +244,15 @@ iframe {
     text-decoration: none;
     color: #fff;
 }
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #000;
+}

@@ -194,17 +194,27 @@ iframe {
 .card {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 460px;
 
 }
 
+.card h4 {
+    margin-bottom: 20px;
+}
+
+.card div {
+    padding: 10px 20px;
+}
+
 .card img {
-    width: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .opcoes-sobre {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 2.5rem;
 
 }

@@ -56,3 +56,29 @@ ul {
 
 
 
+
+.banner {
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.solteiro {
+}
+
+.galeria {
+    max-width: 1024px;
+}
+.galeria img {
+    width: 33%;
+}

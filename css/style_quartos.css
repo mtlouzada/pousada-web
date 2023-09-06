@@ -57,10 +57,11 @@ ul {
 
 
 
-.banner {
+.banner img {
+    width: 100vw;
     height: 30vh;
-    background-attachment: fixed;
-    background-size: cover;
+    
+    
     background-repeat: no-repeat;
 }
 

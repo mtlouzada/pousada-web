@@ -58,11 +58,8 @@ ul {
 
 
 .banner img {
-    width: 100vw;
-    height: 30vh;
-    
-    
-    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url();
 }
 
 .container {
@@ -72,9 +69,6 @@ ul {
     justify-content: center;
     padding: 40px 0;
     background-color: #fff;
-}
-
-.solteiro {
 }
 
 .galeria {

@@ -13,6 +13,7 @@ header {
     justify-content: center;
     position: fixed;
     background-color: #fff;
+    top: 0;
 }
 
 .menu {
@@ -67,6 +68,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 60px;
 }
 
 .conteudo {

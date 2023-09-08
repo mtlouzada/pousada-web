@@ -81,7 +81,8 @@ ul {
     max-width: 1024px;
 }
 .galeria img {
-    width: 33%;
+    width: 330px;
+    height: 230px;
 }
 
 

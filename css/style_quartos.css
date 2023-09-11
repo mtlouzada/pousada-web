@@ -12,6 +12,7 @@ header {
     align-items: center;
     justify-content: center;
     position: fixed;
+    top: 0;
     background-color: #fff;
 }
 
@@ -57,9 +58,12 @@ ul {
 
 
 
-.banner img {
+.banner {
     width: 100%;
-    background-image: url();
+    height: 120px;
+    margin-top: 60px;
+    background-image: url('/assets/img-fundo.jpg');
+    background-size: cover;
 }
 
 .container {
@@ -69,6 +73,18 @@ ul {
     justify-content: center;
     padding: 40px 0;
     background-color: #fff;
+    gap: 2rem;
+}
+
+.container ul {
+    list-style: inside;
+    max-width: 1024px;
+}
+
+.container h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .galeria {
@@ -77,6 +93,11 @@ ul {
 .galeria img {
     width: 330px;
     height: 230px;
+}
+
+.detalhes {
+    text-align: center;
+    font-size: 15px;
 }
 
 

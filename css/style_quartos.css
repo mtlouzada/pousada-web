@@ -78,26 +78,38 @@ ul {
 
 .container ul {
     list-style: inside;
-    max-width: 1024px;
+    max-width: 1200px;
 }
 
 .container h2 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
+.container div h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+p {
+    font-size: 20px;
+}
+
 .galeria {
-    max-width: 1024px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .galeria img {
-    width: 330px;
-    height: 230px;
+    width: 33%;
+    height: 280px;
 }
 
 .detalhes {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     font-size: 20px;
 }

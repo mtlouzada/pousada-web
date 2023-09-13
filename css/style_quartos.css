@@ -78,7 +78,7 @@ ul {
 
 .container ul {
     list-style: inside;
-    max-width: 1200px;
+    max-width: 1024px;
 }
 
 .container h2 {
@@ -97,15 +97,14 @@ p {
 }
 
 .galeria {
-    width: 100%;
-    max-width: 1200px;
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
 .galeria img {
-    width: 33%;
-    height: 280px;
+    width: 320px;
+    height: 250px;
 }
 
 .detalhes {

@@ -1,3 +1,3 @@
 Site para uma pousada
 
-Deploy: https://louzadarj.github.io/pousada-web/
+Deploy: https://mtlouzada.github.io/pousada-web/
